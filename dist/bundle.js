@@ -1,6 +1,9 @@
 "use strict";
 
-var user = {
-  name: "Daniel"
-};
-console.log(user === null || user === void 0 ? void 0 : user.name);
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function App() {
+  return /*#__PURE__*/_react["default"].createElement("h1", null, "hello world");
+}
