@@ -1,4 +1,3 @@
 export function App(){
-    throw new Error('Eita aconteceu um erro');
-    return <h1>Hello World 2!</h1>
+    return <h1>Hello World com atalho (script)!</h1>
 }
