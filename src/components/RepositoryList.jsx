@@ -5,8 +5,7 @@ const repository =  {
     description:"Forms in React",
     link:"https://www.google.com.br",
 };
-// const repositoryName = 'testando unform';
-// const repositorvazio = '';
+
 export function RepositoryList(){
     return(
         <section className="repository-list">
